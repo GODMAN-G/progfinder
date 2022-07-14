@@ -1,0 +1,119 @@
+<script language="JavaScript">
+    var a;//Global variable
+    var b;
+    var c;
+    var d;
+    var e;
+    var f;
+    var result=0; //Global variable
+    var avg=0; //Global variable
+     
+    function Calculate()
+    {
+    a=parseInt(form1.txtNum1.value);
+    b=parseInt(form1.txtNum2.value);
+    c=parseInt(form1.txtNum3.value);
+    d=parseInt(form1.txtNum4.value);
+    e=parseInt(form1.txtNum5.value);
+    f=parseInt(form1.txtNum6.value);
+    result=a+b+c+d+e+f;
+    document.write("The Grade is  :"+ "<b>" + result  +  "<b>" + "</br>");
+     
+     
+    if(result == 6)
+    {
+        document.write("COURSES AVAILABLE :"+ "<b>" + "YOU CAN OFFER ANY COURSE AT THE UNIVERSITY WITH A GRADE OF 6 "+"<br>"+  "<b>" );
+     
+    }
+    else if (result<=9)
+    {
+            document.write("COURSES AVAILABLE  :" + "<b>" );
+            document.write(" <br>"+"BSc Business Administration ((Human Resource Management/Management)"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Marketing/International Business)"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Accounting/Banking and Finance)	"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Logistics and Supply Chain Mgt/Bus. Info. Tech.)	"+"</br>");
+            
+
+
+           
+            
+          
+          
+           
+    }
+    else if (result==10)
+
+    {
+       
+        document.write("COURSES AVAILABLE  :" + "<b>" );
+            document.write(" <br>"+"BSc Business Administration ((Human Resource Management/Management)"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Marketing/International Business)"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Logistics and Supply Chain Mgt/Bus. Info. Tech.)	"+"</br>");
+        }
+    else if (result<=13)
+    {
+        
+        document.write("COURSES AVAILABLE  :" + "<b>" );
+            document.write(" <br>"+"Bsc. Business Administration (Marketing/International Business)"+"</br>");
+            document.write(" <br>"+"Bsc. Business Administration (Logistics and Supply Chain Mgt/Bus. Info. Tech.)	"+"</br>");
+           
+    }
+    else if (result<=15)
+            {
+                document.write("COURSES AVAILABLE  :" + "<b>" );
+                    document.write(" <br>"+"NO COURSE FOR THIS GRADE AT THE BUSINESS SCHOOL"+"</br>");
+
+                }
+            else if (result<=17)
+            {
+                document.write(" <br>"+"NO COURSE FOR THIS GRADE AT THE BUSINESS SCHOOL"+"</br>");
+
+            }
+            else if (result<=19)
+            {
+                
+                document.write(" <br>"+"NO COURSE FOR THIS GRADE AT THE BUSINESS SCHOOL"+"</br>");
+
+            }
+
+            else if (result<=21)
+            {
+               
+                document.write(" <br>"+"NO COURSE FOR THIS GRADE AT THE BUSINESS SCHOOL"+"</br>");
+
+            }
+            else if(result<=24)
+            {
+                document.write(" <br>"+"NO COURSE FOR THIS GRADE AT THE BUSINESS SCHOOL"+"</br>");
+
+            }
+            else if (result>24)
+            {
+                document.write("<br>"+"There's no course for this grade"+"</br>");
+            }
+
+}
+    </script>
+
+<html>
+    <head>
+        <a href="//www.dmca.com/Protection/Status.aspx?ID=0756203a-7f54-4202-aa19-3f607add63cd" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=0756203a-7f54-4202-aa19-3f607add63cd"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+    </head>
+    <body>
+        <body style="background-color:#9ea0a1;">
+       <center> <h2>Student Course Chooser(BUSINESS STUDENT)</h2></center>
+    <form name="form1">
+    <b>Enter Grade FOR MATHS: </b><INPUT type="textbox" name="txtNum1"> </br>
+    <b>Enter Grade FOR ENGLISH: </b><INPUT type="textbox" name="txtNum2"> </br>
+    <b>Enter Grade FOR SOCIAL/SCIENCE:</b><INPUT type="textbox" name="txtNum3"> </br>
+    <b>Enter Grade FOR ANY ELECTIVE: </b><INPUT type="textbox" name="txtNum4"> </br>
+    <b>Enter Grade FOR ANY ELECTIVE: </b><INPUT type="textbox" name="txtNum5"> </br>
+    <b>Enter Grade FOR ANY ELECTIVE: </b><INPUT type="textbox" name="txtNum6"> </br>
+    
+    <INPUT type="button" Value="Calculate" onClick='Calculate()'>
+        <p>Copyright. All rights reserved.</p>
+        
+    </form>
+    </body>
+    </html>
+     
